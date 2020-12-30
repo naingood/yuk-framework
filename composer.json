@@ -1,0 +1,20 @@
+{
+    "name": "yukdiorder/yukframework",
+    "description": "Kerangka kerja sederhana untuk mengembangkan theme dan plugin Wordpress",
+    "require": {
+        "htmlburger/carbon-fields": "^3.2",
+        "yukdiorder/wp-helper": "dev-master"
+    },
+    "license": "GPL v2.0 or later",
+    "authors": [
+        {
+            "name": "Isnainy Nasrullah",
+            "email": "nain.daftar@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "YukFramework\\" : "inc/"
+        }
+    }
+}
