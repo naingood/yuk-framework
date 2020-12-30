@@ -5,7 +5,7 @@
         "htmlburger/carbon-fields": "^3.2",
         "yukdiorder/wp-helper": "dev-master"
     },
-    "license": "GPL v2.0 or later",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Isnainy Nasrullah",
@@ -14,7 +14,7 @@
     ],
     "autoload" : {
         "psr-4" : {
-            "Yukdiorder\\Framework\\" : "inc/"
+            "Yukdiorder\\Framework\\" :  "inc/"
         }
     }
 }
