@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a85115ca78a25449b245c75e0aeadf5",
+    "content-hash": "270896f66faace6344e9ece7fbee51cc",
     "packages": [
         {
             "name": "htmlburger/carbon-fields",
@@ -138,12 +138,50 @@
             "description": "WordPress developer-friendly custom fields for post types, taxonomy terms, users, comments, widgets, options and more.",
             "homepage": "http://carbonfields.net/",
             "time": "2020-11-05T17:10:48+00:00"
+        },
+        {
+            "name": "yukdiorder/yuk-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naingood/yuk-helper.git",
+                "reference": "050b8fe53161abfb966fcbab5d8755c1a13d486f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naingood/yuk-helper/zipball/050b8fe53161abfb966fcbab5d8755c1a13d486f",
+                "reference": "050b8fe53161abfb966fcbab5d8755c1a13d486f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yukdiorder\\Helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Isnainy Nasrullah",
+                    "email": "nain.daftar@gmail.com"
+                }
+            ],
+            "description": "Membantu wordpress developer untuk mengerjakan fungsi - fungsi wordpress sederhana",
+            "time": "2020-12-30T07:26:00+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "yukdiorder/yuk-helper": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

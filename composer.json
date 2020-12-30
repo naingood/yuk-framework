@@ -2,7 +2,8 @@
     "name": "yukdiorder/yukframework",
     "description": "Kerangka kerja sederhana untuk mengembangkan theme dan plugin Wordpress",
     "require": {
-        "htmlburger/carbon-fields": "^3.2"
+        "htmlburger/carbon-fields": "^3.2",
+        "yukdiorder/yuk-helper": "dev-master"
     },
     "license": "GPL-2.0-or-later",
     "authors": [
