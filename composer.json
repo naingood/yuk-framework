@@ -3,7 +3,7 @@
     "description": "Kerangka kerja sederhana untuk mengembangkan theme dan plugin Wordpress",
     "require": {
         "htmlburger/carbon-fields": "^3.2",
-        "yukdiorder/yuk-helper": "dev-master"
+        "yukdiorder/yuk-helper": "0.1"
     },
     "license": "GPL-2.0-or-later",
     "authors": [
